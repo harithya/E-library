@@ -1,0 +1,148 @@
+body {
+  background-color: #1c213e;
+}
+
+/* component */
+.btn {
+  border-radius: 50px !important;
+  font-size: 12px;
+  background-color: #242a4b;
+  border-color: #242a4b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.img-cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* sidebar */
+.sidebar {
+  height: 100vh;
+  width: 214px;
+}
+.sidebar .sidebar-content {
+  padding-top: 53px;
+  padding-left: 43px;
+}
+/* main content */
+.main-content {
+  width: 918px;
+  background-color: #242a4b;
+  border-top-left-radius: 54px;
+  padding-bottom: 200px;
+}
+.container {
+  padding: 53px 59px 0px 59px;
+}
+
+/* search bar */
+.search-bar .search-input {
+  background-color: #2b335b;
+  border: 1px solid transparent;
+  height: 48px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.input-group-prepend .input-group-text {
+  background-color: #2b335b;
+  border: 1px solid transparent;
+  height: 46px;
+  margin-top: 1px;
+  color: #ffffff;
+  width: 77px;
+}
+.search-icon {
+  font-size: 16px;
+}
+.search-input:focus {
+  box-shadow: none;
+}
+.search-input::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+/* sidebar info */
+.sidebar-info {
+  width: 308px;
+  height: 100vh;
+}
+/* jumbotron */
+.card-banner {
+  margin-top: 42px;
+  border-radius: 15px;
+  padding-bottom: 18px;
+  background-color: #2b335b;
+}
+.card-banner .card-body h4 {
+  font-size: 23px;
+}
+.card-banner .card-body p {
+  font-size: 17px;
+  margin-top: 14px;
+}
+.card-banner .card-body .btn {
+  margin-top: 18px;
+}
+.card-banner .card-body .img-banner {
+  position: absolute;
+  margin-top: -80px;
+}
+
+/* navigation */
+.navigation {
+  margin-top: 63px;
+}
+.navigation ul {
+  list-style: none;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+.navigation ul li {
+  display: block;
+  margin-top: 40px;
+}
+
+.navigation ul li a {
+  list-style: none;
+  color: #9098d8;
+  font-size: 14px;
+}
+
+.navigation ul li a:hover {
+  text-decoration-line: none;
+}
+
+/* section */
+.section {
+  margin-top: 26px;
+}
+.section .title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #a2a5bf;
+}
+
+/* recommendation book */
+.book-recommendation-list {
+  margin-top: 37px;
+}
+.book-cover {
+  height: 175px;
+  width: auto !important;
+}
+.rating .checked {
+  color: #ffc107;
+}
+.book-description {
+  width: 224px;
+}
+.text-description {
+  font-size: 13px;
+}

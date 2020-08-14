@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="dist/owlcarousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="dist/owlcarousel/assets/owl.theme.default.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- main wrapper -->
+    <div class="main-wrap d-flex">
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <div class="logo">
+            <img src="assets/img/logo.png" alt="logo" class="img-logo" />
+          </div>
+          <div class="navigation">
+            <ul>
+              <li>
+                <a href="#" class="text-light"
+                  ><i class="ti ti-home pr-2"></i> Home</a
+                >
+              </li>
+              <li>
+                <a href="#"><i class="ti ti-search pr-2"></i> Discover</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti ti-heart pr-2"></i> Favourite</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti ti-bookmark pr-2"></i> Wishlist</a>
+              </li>
+              <li>
+                <a href="#"><i class="ti ti-settings pr-2"></i> Settings</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="main-content">
+        <div class="container">
+          <!-- search bar -->
+          <div class="search-bar">
+            <form action="">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <i class="ti ti-search search-icon"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control search-input"
+                  placeholder="Search you favourite books"
+                  aria-label="Search"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </form>
+          </div>
+          <!-- jumbotron -->
+          <div class="card card-banner">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <h4 class="font-weight-bold mt-3 text-light">Hi Lara!</h4>
+                  <p class="text-light">
+                    Here is a customised world of books for you.
+                  </p>
+                  <button class="btn rounded btn-primary">
+                    Browse Latest
+                  </button>
+                </div>
+                <div class="col-md-8">
+                  <img
+                    src="assets/img/banner.png"
+                    class="img-fluid img-banner"
+                    alt="Banner"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Recommended -->
+          <section class="recommended section">
+            <h5 class="title">Recommended For You</h5>
+            <div class="row book-recommendation-list">
+              <!-- list book -->
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <div class="book-cover">
+                    <img
+                      src="assets/img/book1.png"
+                      class="rounded img-cover"
+                      alt="Book Cover"
+                    />
+                  </div>
+                  <div class="book-description ml-4">
+                    <h6 class="text-light">Bald Bearded Boss</h6>
+                    <span class="text-muted text-description"
+                      >By Elliott Holt I Feb 2020</span
+                    >
+                    <div class="rating mt-1">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <p class="text-light mt-1 text-description">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
+                      amet, consectetu eradipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- list book -->
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <div class="book-cover">
+                    <img
+                      src="assets/img/book2.png"
+                      class="rounded img-cover"
+                      alt="Book Cover"
+                    />
+                  </div>
+                  <div class="book-description ml-4">
+                    <h6 class="text-light">The Tiny Dragon</h6>
+                    <span class="text-muted text-description"
+                      >By Francis SU I Feb 2020</span
+                    >
+                    <div class="rating mt-1">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <p class="text-light mt-1 text-description">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Aenean commodo ligula eget dolor. Lorem ipsum dolor sit
+                      amet, consectetu eradipiscing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="sidebar-info"></div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- owl carousel -->
+    <script src="dist/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
